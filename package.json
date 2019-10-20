@@ -1,0 +1,26 @@
+{
+  "name": "@laomao800/mark-match",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "types": "types.d.ts",
+  "files": [
+    "index.js",
+    "types.d.ts"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "keywords": [
+    "mark",
+    "match",
+    "search",
+    "highlight"
+  ]
+}
