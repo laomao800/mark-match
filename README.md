@@ -6,7 +6,7 @@
 ## Usage
 
 ```js
-import { markMatch, markExactMatch } from '@laomao800/mark-match'
+import { markMatch, markExactMatch, hasMatch, hasExactMatch } from '@laomao800/mark-match'
 
 // Normal match
 markMatch('1234567890', '34') // -> '12<mark>34</mark>567890'
@@ -21,4 +21,8 @@ markExactMatch('1 2 3 4 5 6 7 8 9', '3 4 5') // -> '1 2 <mark>3 4 5</mark> 6 7 8
 markMatch('1234567890', '34', match => `<span class="keyword">${match}</span>`)
 markExactMatch('1234567890', '34', match => `<span class="keyword">${match}</span>`)
 // -> '12<span class="keyword">34</span>567890'
+
+// Works like `markMatch` & `markExactMatch` except is return boolean value
+hasMatch('1234567890', '3 6 9') // true
+hasExactMatch('1234567890', '3 6 9') // false
 ```
