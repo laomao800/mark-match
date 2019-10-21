@@ -4,6 +4,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "main": "index.js",
   "types": "types.d.ts",
   "files": [
@@ -11,8 +14,12 @@
     "types.d.ts"
   ],
   "license": "MIT",
-  "scripts": {
-    "test": "jest"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laomao800/mark-match.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laomao800/mark-match/issues"
   },
   "devDependencies": {
     "jest": "^24.9.0"
