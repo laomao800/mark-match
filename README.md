@@ -1,6 +1,7 @@
 # mark-match
 
-[![Actions Status](https://github.com/actions/laomao800/mark-match/workflows/Publish%20package/badge.svg)](https://github.com/laomao800/mark-match/actions)
+[![Actions Status](https://github.com/laomao800/mark-match/workflows/package-ci/badge.svg)](https://github.com/laomao800/mark-match/actions)
+[![codecov](https://codecov.io/gh/laomao800/mark-match/branch/master/graph/badge.svg)](https://codecov.io/gh/laomao800/mark-match)
 
 ## Usage
 
