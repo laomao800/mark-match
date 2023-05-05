@@ -8,7 +8,7 @@ type markFn = (
   /**
    * default: (match: string) => `<mark>${match}<mark>`
    */
-  templateFunction: (matchText: string) => string
+  templateFunction?: (matchText: string) => string
 ) => string
 
 type hasMatch = (
